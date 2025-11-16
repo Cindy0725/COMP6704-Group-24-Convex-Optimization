@@ -1,2 +1,5 @@
 # COMP6704-Group-24-Convex-Optimization
 This repository contains the code for four optimization algorithms for the SVM model. 
+We train and test on the Credit Score Classification dataset from Kaggle: https://www.kaggle.com/datasets/parisrohan/credit-score-classification. To evaluate the scalability and stability of our algorithms, we partitioned the training data into three subsets of increasing size: <img width="1748" height="464" alt="02cd1378-12fc-4a52-b43c-6dd058139270" src="https://github.com/user-attachments/assets/c6f903f9-d5d7-4f4b-be68-80745556c0da" />. By unzipping the data.zip file, you will see three files of training data: "train_data_m.csv", "train_data_s.csv", and "train_data_l.csv", and one file of testing data: "train_data_m.csv".
+
+For fair comparison, we train and test our models on the same Google Colab CPUs. You can upload the .ipynb or .py file for each algorithm to Google Colab and run the file to reproduce our results. Please also remember to upload the four data files and modify the loading directory in the .ipynb or .py files accordingly. 
